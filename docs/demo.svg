@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="600" viewBox="0 0 820 600" font-family="Consolas, 'Courier New', monospace">
+  <!-- terminal window -->
+  <rect x="10" y="10" width="800" height="580" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <!-- title bar -->
+  <rect x="10" y="10" width="800" height="38" rx="12" fill="#161b22"/>
+  <rect x="10" y="36" width="800" height="12" fill="#161b22"/>
+  <circle cx="34" cy="29" r="6" fill="#ff5f57"/>
+  <circle cx="54" cy="29" r="6" fill="#febc2e"/>
+  <circle cx="74" cy="29" r="6" fill="#28c840"/>
+  <text x="410" y="34" text-anchor="middle" fill="#8b949e" font-size="14">have-we-been-nuked</text>
+
+  <!-- big header -->
+  <text x="410" y="86" text-anchor="middle" fill="#f0c674" font-size="26" font-weight="bold">&#9762;  HAVE WE BEEN NUKED YET?  &#9762;</text>
+
+  <!-- command -->
+  <text x="36" y="122" fill="#8b949e" font-size="15"><tspan fill="#7ee787">$</tspan> python nuked.py</text>
+  <text x="36" y="150" fill="#c9d1d9" font-size="15">Checking 22 monitors across the country...</text>
+
+  <!-- results -->
+  <g font-size="15">
+    <text x="36" y="184" fill="#c9d1d9">ST. PAUL, MN         4461 cpm   1.46x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="210" fill="#c9d1d9">DETROIT, MI          3605 cpm   1.06x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="236" fill="#c9d1d9">PHILADELPHIA, PA     3187 cpm   1.05x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="262" fill="#c9d1d9">ANCHORAGE, AK        1487 cpm   1.05x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="288" fill="#c9d1d9">CHICAGO, IL          2026 cpm   1.02x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="314" fill="#c9d1d9">BOSTON, MA           5274 cpm   1.01x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="340" fill="#c9d1d9">MIAMI, FL            3066 cpm   1.00x normal  <tspan fill="#7ee787">NORMAL</tspan>  <tspan fill="#f0c674">** silent for 1055 hours</tspan></text>
+    <text x="36" y="366" fill="#c9d1d9">PHOENIX, AZ          6187 cpm   0.97x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="392" fill="#c9d1d9">SEATTLE, WA          1331 cpm   0.95x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="418" fill="#c9d1d9">HONOLULU, HI         1579 cpm   0.91x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="444" fill="#c9d1d9">DENVER, CO           4264 cpm   0.82x normal  <tspan fill="#7ee787">NORMAL</tspan></text>
+    <text x="36" y="470" fill="#8b949e">... 11 more stations ...</text>
+  </g>
+
+  <!-- verdict -->
+  <text x="36" y="514" fill="#7ee787" font-size="17" font-weight="bold">HAVE WE BEEN NUKED? No. All 22 monitors are near normal levels.</text>
+  <text x="36" y="542" fill="#8b949e" font-size="14">(Though 2 of them went quiet more than 6 hours ago. Probably maintenance. Probably.)</text>
+
+  <!-- footer -->
+  <text x="410" y="574" text-anchor="middle" fill="#484f58" font-size="12">live data from EPA RadNet &#183; gamma count rates vs each station's own yearly baseline</text>
+</svg>
