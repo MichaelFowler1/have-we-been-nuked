@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 # Have we been nuked yet?
 # Compares each EPA RadNet monitor's latest gamma count rate to its own
 # baseline (mean and standard deviation) for the year. A reading far above

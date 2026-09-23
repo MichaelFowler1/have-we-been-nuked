@@ -70,3 +70,16 @@ Timestamps are GMT. Some stations report dose equivalent rate too, but this prog
 ## Disclaimer
 
 This is a toy. It is **not** an emergency-alert system, and you should not make any safety decision based on its output. If you are genuinely concerned about a radiological event, consult official channels: [ready.gov/radiation](https://www.ready.gov/radiation) and your local emergency management agency.
+
+## License
+
+Everything in this repository from this change on is under the
+[PolyForm Noncommercial License 1.0.0](LICENSE), apart from the third-party
+material listed in [NOTICE](NOTICE), which keeps its own terms. Earlier commits were released
+under the Apache License 2.0 and stay under it. In plain terms: it is free for
+any noncommercial purpose, and for schools and universities, public research
+organizations, government institutions and charities, whatever their funding.
+Commercial use needs a license from the author: ask through
+[the issue tracker](https://github.com/MichaelFowler1/have-we-been-nuked/issues). Anyone who
+passes on a copy has to pass on the license and the `Required Notice:` line in
+[NOTICE](NOTICE). This is a plain summary; the LICENSE file is what governs.

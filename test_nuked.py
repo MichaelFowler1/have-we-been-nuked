@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 # Tests for the decision logic in nuked.py. No network needed.
 # Run with:  python -m unittest
 

@@ -1,0 +1,25 @@
+have-we-been-nuked
+Copyright 2026 Michael Fowler
+https://github.com/MichaelFowler1/have-we-been-nuked
+
+Required Notice: Copyright 2026 Michael Fowler (https://github.com/MichaelFowler1/have-we-been-nuked)
+
+This software is licensed under the PolyForm Noncommercial License 1.0.0 (see
+LICENSE, or https://polyformproject.org/licenses/noncommercial/1.0.0). Anyone
+who passes on a copy of any part of it has to pass on those terms, or their URL,
+and the Required Notice line above along with it.
+
+Any noncommercial purpose is free, and so is use by a charitable organization,
+educational institution, public research organization, public safety or health
+organization, environmental protection organization or government institution,
+whatever its funding. Commercial use needs a separate license from the author:
+ask through https://github.com/MichaelFowler1/have-we-been-nuked/issues.
+
+Third-party material in this repository keeps its own terms, which this
+license does not replace:
+
+- EPA RadNet gamma count-rate readings from a real run, shown in docs/demo.svg and in the README's example output line: US Environmental Protection Agency data, a US government work in the public domain.
+
+Earlier versions: every commit published before this license change was
+released under the Apache License 2.0 and stays under it. The PolyForm
+Noncommercial terms cover everything after it.
